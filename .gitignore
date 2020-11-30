@@ -1,2 +1,7 @@
+dist
+*.log
+node_modules
+.eslint.json
+*.error
 .prettierrc.*
-
+/imgbak

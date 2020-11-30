@@ -1,0 +1,22 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "webdev101-odin-project-assignment",
+  "main": "rps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miradii/Rock-Paper-Scissors.git"
+  },
+  "author": "miradii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miradii/Rock-Paper-Scissors/issues"
+  },
+  "homepage": "https://github.com/miradii/Rock-Paper-Scissors#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
+}
