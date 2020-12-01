@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="./src/style.css">
-    <title>Rock Paper Scissors</title>
-  </head>
-  <body>
-	<main>
-		<div class="title"><h2>Start Game</h2></div>
-		<div class ="comSelect">
-			<div class="img-container">
-				<div id="fake-rock" class="fake-btn hidden"></div>
-				<div id="fake-paper" class="fake-btn hidden"></div>
-				<div id="fake-scissors" class="fake-btn hidden"></div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/style.css" />
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<main>
+			<div class="title" id="start"><h2>Start Game</h2></div>
+			<div class="comSelect">
+				<div class="img-container">
+					<div id="fake-rock" class="fake-btn hidden"></div>
+					<div id="fake-paper" class="fake-btn hidden"></div>
+					<div id="fake-scissors" class="fake-btn hidden"></div>
+				</div>
 			</div>
-		</div>
-		<div class ="result">
-			
-			<h2 class="score-sheet">Computer's Score: <span id="comScore-text">0</span></h2>
-			<h2>Select your weapon to start the game</h2>
-			<h2 class="score-sheet">Your Score: <span id="userScore-text">0</span></h2>
-
-		</div>
-		<div class ="playerSelect">
-			<div class="button-container">
-				<button class="btn" id="rock"></button>
-				<button class="btn" id="paper"></button>
-				<button class="btn" id="scissors"></button>
+			<div class="result">
+				<h2 class="score-sheet">
+					Computer's Score: <span id="comScore-text">0</span>
+				</h2>
+				<h2 id="result-message">
+				</h2>
+				<h2 class="score-sheet">
+					Your Score: <span id="userScore-text">0</span>
+				</h2>
 			</div>
-		</div>
-	</main>
-	<!--<script src="src/rps.js"></script>-->
-  </body>
+			<div class="playerSelect">
+				<div class="button-container">
+					<button class="btn" id="rock"></button>
+					<button class="btn" id="paper"></button>
+					<button class="btn" id="scissors"></button>
+				</div>
+			</div>
+		</main>
+		<script src="src/rps.js"></script>
+	</body>
 </html>
